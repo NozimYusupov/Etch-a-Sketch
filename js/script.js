@@ -96,7 +96,7 @@ function clearBoard () {
 function addCells() {
 	let square = prompt('Cols and Rows', 10);
 	while (square > 100 || square < 10) {
-		alert('cells is [16..100]');
+		alert('cells is [10..100]');
 		square = prompt('Cols and Rows', 10);
 	}
 	return square;
